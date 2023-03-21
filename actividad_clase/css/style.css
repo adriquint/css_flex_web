@@ -25,11 +25,31 @@ section {
   border-style: solid;
   border-color: hotpink;
   border-width: 5px;
-
+  
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   /* Aquí configurar el display flex
   de la sección entera */
 }
 
+
 /* Aquí crear los estilos para la clase avatar
  y configurar el display flex que requiere */
+
+ .avatar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  font-size: 25px;
+  color: rgb(119, 15, 33);
+}
+
+button {
+  padding: 6px;
+  background-color: rgb(250, 185, 217);
+  border-color: rgb(247, 109, 178);
+}
 
